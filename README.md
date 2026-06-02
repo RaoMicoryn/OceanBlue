@@ -72,25 +72,24 @@ The app will be running at `http://localhost:5173` by default.
 ```
 oceanblue/
 ├── public/
-│   └── assets/          # Static assets (images, icons, fonts)
+│   └── assets/                  # Static assets (images, icons, fonts)
 ├── src/
 │   ├── components/
-        ├──About.jsx
-        ├──Footer.jsx
-        ├──Gallery.jsx
-        ├──Hero.jsx
-        ├──MenuSection.jsx
-        ├──Navbar.jsx
-        ├──OrderSection.jsx
-        ├──WhatsAppFloating.jsx
-        ├──WhyUs.jsx  
+│   │   ├── About.jsx            # About brand section
+│   │   ├── Footer.jsx           # Site footer
+│   │   ├── Gallery.jsx          # Product/brand gallery
+│   │   ├── Hero.jsx             # Hero/landing section
+│   │   ├── MenuSection.jsx      # Drink menu display
+│   │   ├── Navbar.jsx           # Navigation bar
+│   │   ├── OrderSection.jsx     # Order form/CTA section
+│   │   ├── WhatsAppFloating.jsx # Floating WhatsApp button
+│   │   └── WhyUs.jsx            # Why choose OceanBlue section
 │   ├── pages/
-        ├──GalleryPage.jsx
-        ├──Home.jsx
-        ├──Menu.jsx
-        ├──OrderPage.jsx   
-│   
-│   └── App.jsx          # Root component
+│   │   ├── GalleryPage.jsx      # Full gallery page
+│   │   ├── Home.jsx             # Home page
+│   │   ├── Menu.jsx             # Menu page
+│   │   └── OrderPage.jsx        # Order page
+│   └── App.jsx                  # Root component & routing
 ├── package.json
 └── README.md
 ```
